@@ -321,6 +321,56 @@
   color: $white;
 }
 
+.blog {
+  margin-bottom: 100px;
+
+  &__title {
+    margin-bottom: 30px;
+  }
+
+  &__item-img {
+    margin-bottom: 20px;
+  }
+
+  &__item-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    min-height: 46px;
+  }
+
+  &__item-text {
+    margin-bottom: 10px;
+  }
+
+  &__item-link {
+    color: $darkgrey;
+    font-size: 12px;
+  }
+
+  &__slider {
+    position: relative;
+    padding-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  &__button {
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+    left: 50%;
+  }
+}
+
+.swiper-button-left {
+  transform: translateX(-40px);
+}
+
+.swiper-button-right {
+  transform: translateX(8px);
+}
+
 
 /* Медиа запросы */
 @import 'media';
