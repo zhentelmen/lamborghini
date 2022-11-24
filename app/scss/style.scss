@@ -371,6 +371,105 @@
   transform: translateX(8px);
 }
 
+.blog__quote {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 20px;
+}
+
+.blog__quote-box {
+  flex-basis: 434px;
+}
+
+.blockquote {
+  margin-bottom: 30px;
+}
+
+.blockquote__name {
+  font-weight: 700;
+  color: $title;
+  font-style: normal;
+}
+
+.blockquote__name span {
+  display: block;
+  color: $gold;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 3px;
+}
+
+.blockquote__text {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+.footer {
+  padding: 100px 0 80px;
+  background-color: $darkgrey;
+  color: $white;
+
+  &__title {
+    color: $white;
+    margin-bottom: 40px;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px;
+    margin-bottom: 86px;
+  }
+
+  &__info-item {
+    margin-bottom: 50px;
+
+    dt {
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    dd {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__social-list {
+    display: flex;
+    gap: 0 20px;
+    align-items: center;
+  }
+
+  &__adress {
+    flex-basis: 462px;
+  }
+
+  #map {
+    height: 250px;
+  }
+
+  &__adress-title {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+
+  &__adress-text {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  &__bottom {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 /* Медиа запросы */
 @import 'media';
